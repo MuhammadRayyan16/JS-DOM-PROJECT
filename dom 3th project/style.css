@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.curcor {
+    height: 25px;
+    width: 25px;
+    mix-blend-mode: difference;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.2s;
+}
+
+h1 {
+    font-size: 9vw;
+    font-weight: 900;
+}
